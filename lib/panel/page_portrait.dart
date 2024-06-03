@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tetris/main.dart';
-import 'package:tetris/panel/controller.dart';
-import 'package:tetris/panel/screen.dart';
+import 'package:bricks_tetrix/main.dart';
+import 'package:bricks_tetrix/panel/controller.dart';
+import 'package:bricks_tetrix/panel/screen.dart';
 
 part 'page_land.dart';
 

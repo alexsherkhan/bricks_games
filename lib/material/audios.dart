@@ -31,14 +31,14 @@ const _SOUNDS = [
 class SoundState extends State<Sound> {
   late AudioPlayer _player;
 
-  final _soundIds = Map<String, int>();
+  final _soundIds = Map<String, String>();
 
   bool mute = false;
 
   void _play(String name) {
     final soundId = _soundIds[name];
     if (soundId != null && !mute) {
-      player.play(UrlSource(soundId));
+      _player.play(UrlSource(soundId));
     }
   }
 
@@ -57,7 +57,6 @@ class SoundState extends State<Sound> {
   @override
   void dispose() {
     super.dispose();
-    _pool.dispose();
   }
 
   @override

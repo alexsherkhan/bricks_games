@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
-project(flutter_tetris LANGUAGES CXX)
+project(flutter_bricks_tetrix LANGUAGES CXX)
 
-set(BINARY_NAME "flutter_tetris")
+set(BINARY_NAME "flutter_bricks_tetrix")
 
 cmake_policy(SET CMP0063 NEW)
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tetris/material/briks.dart';
-import 'package:tetris/material/images.dart';
-import 'package:tetris/gamer/gamer.dart';
+import 'package:bricks_tetrix/material/briks.dart';
+import 'package:bricks_tetrix/material/images.dart';
+import 'package:bricks_tetrix/gamer/gamer.dart';
 
 const _PLAYER_PANEL_PADDING = 6;
 
@@ -72,7 +72,7 @@ class _GameUninitialized extends StatelessWidget {
             IconDragon(animate: true),
             SizedBox(height: 16),
             Text(
-              "tetrix",
+              "bricks tetrix",
               style: TextStyle(fontSize: 20),
             ),
           ],

@@ -5,10 +5,10 @@
 // 'flutter create' template.
 
 // The application's name. By default this is also the title of the Flutter window.
-PRODUCT_NAME = flutter_tetris
+PRODUCT_NAME = flutter_bricks_tetrix
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = tech.soit.flutterTetris
+PRODUCT_BUNDLE_IDENTIFIER = tech.soit.flutterbricks_tetrix
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2020 tech.soit. All rights reserved.

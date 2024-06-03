@@ -1,6 +1,6 @@
 {
-    "name": "flutter_tetris",
-    "short_name": "flutter_tetris",
+    "name": "flutter_bricks_tetrix",
+    "short_name": "flutter_bricks_tetrix",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
