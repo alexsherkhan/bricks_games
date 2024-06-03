@@ -10,7 +10,7 @@ description: A new Flutter project.
 version: 2.0.0+1
 
 environment:
-  sdk: ">=2.15.0 <3.0.0"
+  sdk: ">=2.15.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -18,7 +18,13 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   overlay_support: ^1.2.1
-  soundpool: ^2.3.0
+
+  audioplayers: ^5.2.1
+  audioplayers_aurora:
+    git:
+      url: https://gitlab.com/alexsherkhan/audioplayers_aurora_gs.git
+      ref: client_wrapper
+      path: ./
 
 dev_dependencies:
   flutter_test:
