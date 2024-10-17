@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:tetris/gamer/gamer.dart';
-import 'package:tetris/generated/l10n.dart';
-import 'package:tetris/material/audios.dart';
-import 'package:tetris/panel/page_portrait.dart';
+import 'package:bricks_games/gamer/gamer.dart';
+import 'package:bricks_games/generated/l10n.dart';
+import 'package:bricks_games/material/audios.dart';
+import 'package:bricks_games/panel/page_portrait.dart';
 
 import 'gamer/keyboard.dart';
 
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'tetris',
+      title: 'Bricks Games',
       localizationsDelegates: [
         S.delegate,
         GlobalMaterialLocalizations.delegate,

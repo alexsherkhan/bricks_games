@@ -1,4 +1,4 @@
-package tech.soit.flutter_tetris
+package tech.soit.
 
 import io.flutter.embedding.android.FlutterActivity
 

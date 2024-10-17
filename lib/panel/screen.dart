@@ -1,9 +1,9 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:tetris/gamer/gamer.dart';
-import 'package:tetris/material/briks.dart';
-import 'package:tetris/material/material.dart';
+import 'package:bricks_games/gamer/gamer.dart';
+import 'package:bricks_games/material/briks.dart';
+import 'package:bricks_games/material/material.dart';
 import 'package:vector_math/vector_math_64.dart' as v;
 
 import 'player_panel.dart';
