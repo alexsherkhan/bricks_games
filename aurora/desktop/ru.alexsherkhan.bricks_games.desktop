@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
-Name=bricks_games
-Comment=A new Flutter project.
+Name=Bricks Games
+Comment=Старые добрые игры в кирпичи.
 Icon=ru.alexsherkhan.bricks_games
 Exec=/usr/bin/ru.alexsherkhan.bricks_games
 X-Nemo-Application-Type=silica-qt5

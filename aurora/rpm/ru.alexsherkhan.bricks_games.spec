@@ -2,7 +2,7 @@
 %global __requires_exclude ^lib(dconf|flutter-embedder|maliit-glib|gstreamer-1.0|.+_platform_plugin)\\.so.*$
 
 Name: ru.alexsherkhan.bricks_games
-Summary: A new Flutter project.
+Summary: Старые добрые игры в кирпичи.
 Version: 0.1.0
 Release: 1
 License: Proprietary
