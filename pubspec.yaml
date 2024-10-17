@@ -18,7 +18,12 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   overlay_support: ^1.2.1
-  soundpool: ^2.3.0
+  audioplayers: ^5.2.1
+  audioplayers_aurora:
+    git:
+      url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/audioplayers_aurora.git
+      ref: aurora-0.5.2
+
 
 dev_dependencies:
   flutter_test:

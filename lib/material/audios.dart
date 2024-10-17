@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:soundpool/soundpool.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 class Sound extends StatefulWidget {
   final Widget child;
@@ -29,9 +29,9 @@ const _SOUNDS = [
 ];
 
 class SoundState extends State<Sound> {
-  late Soundpool _pool;
+  late AudioPlayer _pool;
 
-  final _soundIds = Map<String, int>();
+  final _soundIds = Map<String, AssetSource>();
 
   bool mute = false;
 
@@ -45,11 +45,11 @@ class SoundState extends State<Sound> {
   @override
   void initState() {
     super.initState();
-    _pool = Soundpool.fromOptions(options: SoundpoolOptions(maxStreams: 6));
+    _pool = AudioPlayer();
     for (var value in _SOUNDS) {
       scheduleMicrotask(() async {
-        final data = await rootBundle.load('assets/audios/$value');
-        _soundIds[value] = await _pool.load(data);
+        final data = AssetSource(value);
+        _soundIds[value] = data;
       });
     }
   }
