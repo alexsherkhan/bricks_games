@@ -50,6 +50,7 @@ class DirectionController extends StatelessWidget {
                         child: Icon(
                           Icons.arrow_drop_up,
                           size: _iconSize,
+                          color: Colors.white,
                         )),
                   ),
                   Transform.scale(
@@ -59,6 +60,7 @@ class DirectionController extends StatelessWidget {
                         child: Icon(
                           Icons.arrow_right,
                           size: _iconSize,
+                          color: Colors.white,
                         )),
                   ),
                 ],
@@ -73,6 +75,7 @@ class DirectionController extends StatelessWidget {
                         child: Icon(
                           Icons.arrow_left,
                           size: _iconSize,
+                          color: Colors.white,
                         )),
                   ),
                   Transform.scale(
@@ -82,6 +85,7 @@ class DirectionController extends StatelessWidget {
                         child: Icon(
                           Icons.arrow_drop_down,
                           size: _iconSize,
+                          color: Colors.white,
                         )),
                   ),
                 ],
@@ -176,7 +180,17 @@ class SystemButtonGroup extends StatelessWidget {
               onTap: () {
                 Game.of(context).reset();
               }),
-        )
+        ),
+        // _Description(
+        //   text: S.of(context).settings,
+        //   child: _Button(
+        //       size: _SYSTEM_BUTTON_SIZE,
+        //       color: _systemButtonColor,
+        //       enableLongPress: false,
+        //       onTap: () {
+        //         Game.of(context).pauseOrResume();
+        //       }),
+        // ),
       ],
     );
   }
@@ -285,7 +299,7 @@ class _Description extends StatelessWidget {
     }
     return DefaultTextStyle(
       child: widget,
-      style: TextStyle(fontSize: 12, color: Colors.black),
+      style: TextStyle(fontSize: 12, color: Colors.white),
     );
   }
 }

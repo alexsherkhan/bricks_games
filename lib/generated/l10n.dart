@@ -80,6 +80,16 @@ class S {
     );
   }
 
+  /// `SETTINGS`
+  String get settings {
+    return Intl.message(
+      'SETTINGS',
+      name: 'settings',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Points`
   String get points {
     return Intl.message(

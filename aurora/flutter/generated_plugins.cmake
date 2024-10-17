@@ -8,6 +8,7 @@ function(add_library TARGET)
 
     if (
       "${TARGET}" MATCHES "^audioplayers_aurora_platform_plugin$" OR
+      "${TARGET}" MATCHES "^path_provider_aurora_platform_plugin$" OR
       FALSE
     )
       add_custom_command(TARGET ${TARGET} POST_BUILD
@@ -19,6 +20,7 @@ endfunction()
 
 list(APPEND FLUTTER_PLATFORM_PLUGIN_LIST
     audioplayers_aurora
+    path_provider_aurora
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

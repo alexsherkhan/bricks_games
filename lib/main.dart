@@ -46,15 +46,18 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        body: Sound(child: Game(child: KeyboardController(child: _HomePage()))),
-      ),
+          body: Sound(
+        child: Game(
+          child: KeyboardController(child: _HomePage()),
+        ),
+      )),
     );
   }
 }
 
 const SCREEN_BORDER_WIDTH = 3.0;
 
-const BACKGROUND_COLOR = Color.fromARGB(255, 7, 53, 121);
+const BACKGROUND_COLOR = Color.fromARGB(255, 27, 100, 236);
 
 class _HomePage extends StatelessWidget {
   @override

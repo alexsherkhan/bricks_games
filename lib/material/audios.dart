@@ -47,7 +47,7 @@ class SoundState extends State<Sound> {
     _pool = AudioPlayer();
     for (var value in _SOUNDS) {
       scheduleMicrotask(() async {
-        final data = AssetSource(value);
+        final data = AssetSource("audios/$value");
         _soundIds[value] = data;
       });
     }

@@ -72,7 +72,7 @@ class _GameUninitialized extends StatelessWidget {
             IconDragon(animate: true),
             SizedBox(height: 16),
             Text(
-              "tetrix",
+              "Bricks Games",
               style: TextStyle(fontSize: 20),
             ),
           ],
