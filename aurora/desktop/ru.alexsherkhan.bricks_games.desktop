@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=bricks_games
+Comment=A new Flutter project.
+Icon=ru.alexsherkhan.bricks_games
+Exec=/usr/bin/ru.alexsherkhan.bricks_games
+X-Nemo-Application-Type=silica-qt5
+
+[X-Application]
+Permissions=Audio
+OrganizationName=ru.alexsherkhan
+ApplicationName=bricks_games
